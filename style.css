@@ -11,7 +11,8 @@ body {
 }
 
 button {
-    color: #769FB6 width: 200px;
+    color: #769FB6;
+    width: 200px;
     height: 120px;
     font-size: 20px;
 }
@@ -29,8 +30,9 @@ body {
     margin-left: 250px;
 }
 
-.buttons {
-    display: grid;
-    grid-column-template: 14.2857% 14.2857% 14.2857% 14.2857% 14.2857% 14.2857% 14.2857%;
-    grid-column: 1 / 8;
+@media max-width 950px {
+    .buttons {
+        display: grid;
+        grid-template-columns: 14.2857% 14.2857% 14.2857% 14.2857% 14.2857% 14.2857% 14.2857%;
+    }
 }
