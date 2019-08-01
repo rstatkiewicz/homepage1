@@ -30,6 +30,7 @@ body {
 }
 
 .buttons {
-    grid-row-template: 14.2857% 14.2857% 14.2857% 14.2857% 14.2857% 14.2857% 14.2857%;
-    grid-row: 1 / 8;
+    display: grid;
+    grid-column-template: 14.2857% 14.2857% 14.2857% 14.2857% 14.2857% 14.2857% 14.2857%;
+    grid-column: 1 / 8;
 }
